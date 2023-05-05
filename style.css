@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.img1{
+    background-image: url(./beach3.jpg);
+    height:400px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.text{
+    background-color: rgba(255, 187, 0, 0.459);
+    width: 60%;
+    position: absolute;
+    bottom: 100px;
+    padding: 10px;
+}
+.grimg{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.grimg img{
+    width: 310px;
+    height: 170px;
+    margin: 10px 20px;
+    border-top: 5px solid rgba(255, 187, 0, 0.459);
+    
+}
+.grimg h2{
+    margin:0 20px 10px ;
+}
+.grimg p{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
